@@ -1,0 +1,131 @@
+
+        :root {
+            --color-black: #000000;
+            
+            --color-red: #e61920;
+            --color-white: #ffffff;
+            --color-light-grey: #4a4a4a;
+            --color-dark-grey: #1e1e1e;
+        }
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body{
+            font-family: sans-serif;
+            color: white;
+            background-color: var(--color-black);
+        }
+        .flex{
+            display: flex;
+            flex-flow: row wrap;
+            
+        }
+        main{
+            overflow: auto;
+        }
+        .debug{
+            margin: 1px solid black;
+        }
+
+        
+
+        .container{
+            max-width: 1200px;
+            margin: 0 auto; 
+            
+            
+        }
+
+        header{
+            width: 100vw;
+            height: 5vh;
+            position: fixed;
+            background-color: var(--color-red);
+        }
+
+        .header-settings{
+            position: absolute;
+            right: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+        }
+
+        .haeader-view{
+            background-color: var(--color-light-grey);
+            margin-right: 50px;
+        }
+
+        .header-screen{
+            background-color: var(--color-light-grey);
+
+        }
+
+        /* footer */
+
+        footer{
+            
+            height: 80px;
+            position: fixed;
+            width: 100vw;
+            bottom: 0;
+            background-color: var(--color-dark-grey);
+        }
+        .footer-left{
+            height: 100%;
+        }
+        .box-options{
+            height: 100%;
+        }
+        .box-options > select{
+    
+            width: 1em;
+            padding: 1em;
+            align-items: center;
+            text-align: center;
+            background-color: var(--color-dark-grey);
+            border: 0;
+        }
+
+        .icon{
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .svg-container{
+            height: 100%;
+            width: auto;
+            position: relative;
+        }
+        .svg-container > i{
+            font-size: calc(0.6 * 80px);
+            margin-top: 5px;
+            height: 100%
+            
+        }
+        
+        
+
+        option{
+            
+            color: var(--color-white);
+        }
+        .description h4{
+            margin: 0;
+        }
+
+        .justify-center{
+            justify-content: space-between;
+        }
+
+        footer > *{
+            flex-basis: 20vh;
+        }
+
+        footer:nth-child(2){
+            flex-basis: 50vh;
+        }
