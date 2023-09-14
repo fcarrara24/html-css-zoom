@@ -1,10 +1,12 @@
 :root {
-    --color-black: #000000;
-    
+    --color-black: #000000; 
     --color-red: #e61920;
     --color-white: #ffffff;
     --color-light-grey: #4a4a4a;
     --color-dark-grey: #1e1e1e;
+    /* height */
+    --header-height: 10vh;
+    
 }
 
 *{
@@ -26,4 +28,8 @@ body{
 
 .justify-end{
     justify-content: flex-end;
+}
+
+i{
+    color: var(--color-white);
 }

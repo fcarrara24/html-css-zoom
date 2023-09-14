@@ -1,0 +1,28 @@
+main{
+    padding: var(--header-height) 0;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box{
+    max-width: calc(100% / 5);
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.image-container{
+    
+}
+
+div.img-container > img{
+    width: 90%;
+    transform: translateX(5%);
+}
+
+.audio{
+    position: absolute;
+    bottom: 10%;
+    left: 7%;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
