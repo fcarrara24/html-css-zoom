@@ -1,0 +1,29 @@
+:root {
+    --color-black: #000000;
+    
+    --color-red: #e61920;
+    --color-white: #ffffff;
+    --color-light-grey: #4a4a4a;
+    --color-dark-grey: #1e1e1e;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    color: white;
+    background-color: var(--color-black);
+}
+.flex{
+    display: flex;
+    flex-flow: row wrap;
+    
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
